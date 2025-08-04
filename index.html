@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Role of Entrepreneurship in Economic Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Slide Navigation -->
+        <div class="slide-navigation">
+            <button class="btn btn--secondary btn--sm" id="prevBtn" onclick="changeSlide(-1)">‹ Previous</button>
+            <span class="slide-counter">
+                <span id="currentSlide">1</span> / <span id="totalSlides">7</span>
+            </span>
+            <button class="btn btn--secondary btn--sm" id="nextBtn" onclick="changeSlide(1)">Next ›</button>
+            <button class="btn btn--outline btn--sm" id="printBtn" onclick="togglePrintMode()">Print View</button>
+        </div>
+
+        <!-- Slide 1: Title Slide -->
+        <div class="slide active" id="slide1">
+            <div class="slide-content title-slide">
+                <h1 class="presentation-title">The Role of Entrepreneurship in Economic Development</h1>
+                <div class="title-details">
+                    <div class="student-info">
+                        <input type="text" class="form-control title-input" placeholder="Your Name" id="studentName">
+                        <input type="text" class="form-control title-input" placeholder="College Name" id="collegeName">
+                        <div class="date">Date: August 5, 2025</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">1</div>
+        </div>
+
+        <!-- Slide 2: Introduction to Entrepreneurship -->
+        <div class="slide" id="slide2">
+            <div class="slide-content">
+                <h2 class="slide-title">Introduction to Entrepreneurship</h2>
+                <div class="content-section">
+                    <h3>What is Entrepreneurship?</h3>
+                    <ul class="bullet-list">
+                        <li>The process of creating, launching, and managing new ventures</li>
+                        <li>Involves identifying opportunities, taking calculated risks</li>
+                        <li>Combines innovation with business acumen</li>
+                    </ul>
+                </div>
+                <div class="content-section">
+                    <h3>Global Entrepreneurship Statistics:</h3>
+                    <ul class="bullet-list stats-list">
+                        <li><strong>665 million</strong> entrepreneurs worldwide (2024)</li>
+                        <li><strong>1 in 8</strong> working-age people engaged in entrepreneurial activity</li>
+                        <li>Global startup ecosystem growth: <strong>21% annually</strong></li>
+                        <li>India: <strong>3rd largest</strong> startup ecosystem globally</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide-number">2</div>
+        </div>
+
+        <!-- Slide 3: Job Creation & Employment Impact -->
+        <div class="slide" id="slide3">
+            <div class="slide-content">
+                <h2 class="slide-title">Job Creation & Employment Impact</h2>
+                <div class="content-grid">
+                    <div class="content-section">
+                        <h3>Direct Job Creation:</h3>
+                        <ul class="bullet-list">
+                            <li>Indian startups: <strong>16.6 lakh</strong> direct jobs (2016-2024)</li>
+                            <li>Small businesses employ <strong>60-70%</strong> of workforce globally</li>
+                            <li>Young firms create <strong>50%</strong> of new jobs (OECD average)</li>
+                        </ul>
+                        
+                        <h3>Indirect Impact:</h3>
+                        <ul class="bullet-list">
+                            <li>Multiplier effect: 1 startup job creates <strong>2-3 additional</strong> jobs</li>
+                            <li>Supply chain employment</li>
+                            <li>Service sector growth</li>
+                        </ul>
+                    </div>
+                    <div class="chart-container">
+                        <h4>Sector-wise Employment (India, Oct 2024):</h4>
+                        <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/bf3b2acc523ca87231ac53c3b70f819c/9d0e7ea4-6812-4f94-ae36-ec87a94aaa59/ca150cbe.png" alt="Sector-wise job distribution pie chart" class="chart-image">
+                        <ul class="sector-stats">
+                            <li>IT Services: <strong>2.04 lakh</strong> jobs</li>
+                            <li>Healthcare: <strong>1.47 lakh</strong> jobs</li>
+                            <li>Professional Services: <strong>94,000</strong> jobs</li>
+                            <li>Education: <strong>90,414</strong> jobs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">3</div>
+        </div>
+
+        <!-- Slide 4: Innovation & Economic Growth -->
+        <div class="slide" id="slide4">
+            <div class="slide-content">
+                <h2 class="slide-title">Innovation & Economic Growth</h2>
+                <div class="content-grid">
+                    <div class="content-section">
+                        <h3>GDP Growth Correlation:</h3>
+                        <ul class="bullet-list">
+                            <li>Positive correlation between entrepreneurship and GDP growth</li>
+                            <li>Early-stage entrepreneurship increases economic output</li>
+                            <li>Innovation-driven productivity improvements</li>
+                        </ul>
+
+                        <h3>Technological Advancement:</h3>
+                        <ul class="bullet-list">
+                            <li>Introduction of new products and services</li>
+                            <li>Digital transformation acceleration</li>
+                            <li>Industry 4.0 skill development</li>
+                        </ul>
+
+                        <h3>Competitive Benefits:</h3>
+                        <ul class="bullet-list">
+                            <li>Market competition drives efficiency</li>
+                            <li>Creative destruction replaces outdated firms</li>
+                            <li>Attracts foreign direct investment</li>
+                        </ul>
+                    </div>
+                    <div class="chart-container">
+                        <h4>Startup Growth Pattern (2016-2024):</h4>
+                        <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/bf3b2acc523ca87231ac53c3b70f819c/e6721fc8-f5c4-4f25-ad60-27e8c187a2f3/9d083cd5.png" alt="Startup growth chart" class="chart-image">
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">4</div>
+        </div>
+
+        <!-- Slide 5: Poverty Reduction & Social Development -->
+        <div class="slide" id="slide5">
+            <div class="slide-content">
+                <h2 class="slide-title">Poverty Reduction & Social Development</h2>
+                <div class="content-section">
+                    <h3>Income Generation:</h3>
+                    <ul class="bullet-list">
+                        <li>Self-employment opportunities</li>
+                        <li>Skill development and capacity building</li>
+                        <li>Women entrepreneurship: <strong>73,151</strong> startups with women directors (India)</li>
+                    </ul>
+                </div>
+                <div class="content-section">
+                    <h3>Regional Development:</h3>
+                    <ul class="bullet-list">
+                        <li><strong>51%</strong> of Indian startups from Tier-2/3 cities</li>
+                        <li>Infrastructure development in backward areas</li>
+                        <li>Rural entrepreneurship programs</li>
+                    </ul>
+                </div>
+                <div class="content-section">
+                    <h3>Social Impact:</h3>
+                    <ul class="bullet-list">
+                        <li>Financial inclusion through fintech</li>
+                        <li>Healthcare access via health-tech</li>
+                        <li>Education democratization through ed-tech</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide-number">5</div>
+        </div>
+
+        <!-- Slide 6: Key Benefits & Economic Indicators -->
+        <div class="slide" id="slide6">
+            <div class="slide-content">
+                <h2 class="slide-title">Key Benefits & Economic Indicators</h2>
+                <div class="content-section">
+                    <h3>Capital Formation:</h3>
+                    <ul class="bullet-list">
+                        <li>Mobilization of savings into productive investments</li>
+                        <li>Venture capital and angel funding growth</li>
+                        <li>Fund of Funds: <strong>₹10,000 crore</strong> corpus (India)</li>
+                    </ul>
+                </div>
+                <div class="content-section">
+                    <h3>Wealth Distribution:</h3>
+                    <ul class="bullet-list">
+                        <li>Prevents economic power concentration</li>
+                        <li>Creates middle-class opportunities</li>
+                        <li>Export growth and competitiveness</li>
+                    </ul>
+                </div>
+                <div class="content-section">
+                    <h3>Measurable Impact:</h3>
+                    <ul class="bullet-list stats-list">
+                        <li>Startup ecosystem valued at <strong>$5.1 billion</strong> by 2033</li>
+                        <li>Expected <strong>4-5%</strong> contribution to India's GDP</li>
+                        <li><strong>100+</strong> unicorns created in India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide-number">6</div>
+        </div>
+
+        <!-- Slide 7: Thank You & Questions -->
+        <div class="slide" id="slide7">
+            <div class="slide-content conclusion-slide">
+                <h2 class="slide-title">Thank You & Questions</h2>
+                <div class="key-takeaway">
+                    <h3>Key Takeaway:</h3>
+                    <p class="takeaway-text">Entrepreneurship is the engine of economic development, driving job creation, innovation, and social progress worldwide.</p>
+                </div>
+                <div class="conclusion-section">
+                    <h3>Questions & Discussion</h3>
+                    <div class="thank-you">
+                        <h2>Thank you for your attention!</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">7</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
